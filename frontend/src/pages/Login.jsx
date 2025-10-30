@@ -139,8 +139,8 @@ const Login = () => {
         <div className="mt-6 text-center text-sm text-gray-600">
           <p>
             {formData.role === 'student' 
-              ? 'Students: Use your registration number as password' 
-              : 'Teachers: Use your assigned password'}
+              ? 'Students: Use your registration number as password and student ids are S101-S106' 
+              : 'Teachers: password for the teacher is teacher123 and the ids are T001-T003'}
           </p>
         </div>
       </div>
@@ -149,3 +149,4 @@ const Login = () => {
 };
 
 export default Login;
+
